@@ -168,8 +168,6 @@ public class TTFTextEditor : Editor
 			return RuntimePlatform.WindowsWebPlayer;						
 		case BuildTarget.iPhone:
 			return RuntimePlatform.IPhonePlayer;			
-		case BuildTarget.Wii:
-			return RuntimePlatform.WiiPlayer;
 		case BuildTarget.StandaloneLinux:
 			return RuntimePlatform.LinuxPlayer;
 		case BuildTarget.NaCl:
